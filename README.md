@@ -181,7 +181,7 @@ Only metrics implemented and collected by the running version should be presente
 |---|---|
 | **Project made by** | **Suraj Kumar Gupta** |
 | **Designed by** | **Jatin** |
-| **With contributions from** | **Harsh Pandey and Chatyna** |
+| **With contributions from** | **Harsh Pandey and Chetanya Kuchiya** |
 
 </div>
 
@@ -193,7 +193,7 @@ Ideas, bug reports, testing feedback, and improvements are welcome. If you contr
 
 ## 📄 License
 
-No license has been specified yet. Add a `LICENSE` file before distributing or reusing this project publicly.
+Given
 
 ---
 
