@@ -1,0 +1,91 @@
+{
+  "general": {
+    "report_generated": "2026-10-26 00:57:30",
+    "source": "vidssave.com Vehicle Dataset Sample 2 1080p.mp4",
+    "source_type": "file",
+    "video_duration_s": 10.08,
+    "resolution": "1920 x 1080",
+    "source_fps": 29.97,
+    "monitoring_duration_s": 9.88,
+    "frames_processed": 301,
+    "annotated_video": "not saved"
+  },
+  "vehicles": {
+    "total_unique_detected": 48,
+    "total_counted": 27,
+    "cars": 27,
+    "motorcycles": 0,
+    "buses": 0,
+    "trucks": 0,
+    "cars_detected": 43,
+    "motorcycles_detected": 0,
+    "buses_detected": 1,
+    "trucks_detected": 4,
+    "vehicles_entering": 27,
+    "vehicles_exiting": 0
+  },
+  "speed": {
+    "average_kmh": 79.82,
+    "maximum_kmh": 200.0,
+    "minimum_kmh": 0.31,
+    "distribution": {
+      "0-20 km/h": 604,
+      "20-40 km/h": 279,
+      "40-60 km/h": 331,
+      "Above 60 km/h": 1118
+    },
+    "slow_moving_vehicles": 7,
+    "vehicles_over_threshold": 28,
+    "overspeed_threshold_kmh": 60.0,
+    "slow_threshold_kmh": 15.0
+  },
+  "traffic": {
+    "overall_density": "HIGH",
+    "density_sample_counts": {
+      "LOW": 3,
+      "MEDIUM": 7,
+      "HIGH": 11
+    },
+    "peak_period": "00:10-00:15",
+    "peak_period_avg_vehicles": 12.0,
+    "lowest_period": "00:00-00:05",
+    "lowest_period_avg_vehicles": 4.6,
+    "volume_over_time": [
+      {
+        "start_s": 0.0,
+        "end_s": 5.0,
+        "label": "00:00-00:05",
+        "avg_active": 4.6,
+        "avg_speed": 96.08333333333333,
+        "counted": 10
+      },
+      {
+        "start_s": 5.0,
+        "end_s": 10.0,
+        "label": "00:05-00:10",
+        "avg_active": 11.1,
+        "avg_speed": 72.853,
+        "counted": 25
+      },
+      {
+        "start_s": 10.0,
+        "end_s": 15.0,
+        "label": "00:10-00:15",
+        "avg_active": 12.0,
+        "avg_speed": 43.21,
+        "counted": 27
+      }
+    ],
+    "congestion_events": [],
+    "congestion_event_count": 0
+  },
+  "assumptions": [
+    "Speeds are ESTIMATES derived from pixel displacement of tracked centroids, converted with a user-supplied calibration factor (pixels per metre).",
+    "The calibration is a single scale factor and does not model perspective distortion, so accuracy degrades away from the calibration row.",
+    "Vehicle counting is based on virtual-line crossings and tracking IDs; ID switches by the tracker can cause rare miscounts.",
+    "Density thresholds (LOW <= 3, MEDIUM <= 8 active vehicles) are CONFIGURABLE, not measured.",
+    "Congestion is flagged when active vehicles >= 6 AND average speed <= 12.0 km/h (CONFIGURABLE).",
+    "Overspeed threshold = 60.0 km/h (CONFIGURABLE).",
+    "Vehicle class names come from the YOLO COCO model and can be wrong under occlusion or poor lighting."
+  ]
+}

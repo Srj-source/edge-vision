@@ -1,0 +1,44 @@
+metric,value
+general.report_generated,2026-10-26 00:57:30
+general.source,vidssave.com Vehicle Dataset Sample 2 1080p.mp4
+general.source_type,file
+general.video_duration_s,10.08
+general.resolution,1920 x 1080
+general.source_fps,29.97
+general.monitoring_duration_s,9.88
+general.frames_processed,301
+general.annotated_video,not saved
+vehicles.total_unique_detected,48
+vehicles.total_counted,27
+vehicles.cars,27
+vehicles.motorcycles,0
+vehicles.buses,0
+vehicles.trucks,0
+vehicles.cars_detected,43
+vehicles.motorcycles_detected,0
+vehicles.buses_detected,1
+vehicles.trucks_detected,4
+vehicles.vehicles_entering,27
+vehicles.vehicles_exiting,0
+speed.average_kmh,79.82
+speed.maximum_kmh,200.0
+speed.minimum_kmh,0.31
+speed.distribution.0-20 km/h,604
+speed.distribution.20-40 km/h,279
+speed.distribution.40-60 km/h,331
+speed.distribution.Above 60 km/h,1118
+speed.slow_moving_vehicles,7
+speed.vehicles_over_threshold,28
+speed.overspeed_threshold_kmh,60.0
+speed.slow_threshold_kmh,15.0
+traffic.overall_density,HIGH
+traffic.density_sample_counts.LOW,3
+traffic.density_sample_counts.MEDIUM,7
+traffic.density_sample_counts.HIGH,11
+traffic.peak_period,00:10-00:15
+traffic.peak_period_avg_vehicles,12.0
+traffic.lowest_period,00:00-00:05
+traffic.lowest_period_avg_vehicles,4.6
+traffic.volume_over_time,3 entries
+traffic.congestion_events,0 entries
+traffic.congestion_event_count,0
